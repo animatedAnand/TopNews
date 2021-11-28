@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true">
+
+    <TextView
+        android:id="@+id/devBy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Developed by:"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/devImage"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_below="@id/devBy"
+        android:layout_centerHorizontal="true"
+        android:layout_marginVertical="15dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_baseline_person_pin_24"/>
+
+    <TextView
+        android:id="@+id/devName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/devImage"
+        android:layout_centerHorizontal="true"
+        android:text="Abhayanand Kumar"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/devGmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/devName"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:text="(kumar.abhayanand19@gmail.com)"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/devStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/devGmail"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="Student at"
+        android:textSize="12sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/devCollege"
+        android:layout_below="@id/devStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="IIIT Gwalior"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/devFullCollege"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/devCollege"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:text="(India Institute of
+Information Technology and Mangement, Gwalior)"
+        android:textSize="8sp"
+        android:textStyle="bold" />
+</RelativeLayout>
+
+</RelativeLayout>
